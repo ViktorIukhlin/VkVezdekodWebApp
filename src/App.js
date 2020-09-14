@@ -34,7 +34,7 @@ const App = () => {
 		window.history.pushState({ panel: newActivePanel }, newActivePanel);
 		setHistory(newHistory);
 		setActivePanel(newActivePanel);
-	};
+  };
 
   const go = (e) => {
     setActivePanel(e.currentTarget.dataset.to);
@@ -45,9 +45,9 @@ const App = () => {
       <Home id="home" go={go} />
       <Type id="type" go={go} />
       <Target id="target" go={go} />
-      <Regular id="regular" go={go} />
+      <Regular id="regular" go={go} goForward={goForward}/>
       <Extra id="extra" go={go} goForward={goForward}/>
-      <Snippet id="snippet" go={go} />
+      <Snippet id="snippet" go={go}/>
     </View>
   );
 };

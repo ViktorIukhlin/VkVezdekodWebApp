@@ -15,12 +15,12 @@ import {
 	Text,
 } from "@vkontakte/vkui/";
 
-const Snippet = ({ id, go, back }) => {
+const Snippet = (props) => {
 	const [img, setImg] = useState(localStorage.getItem("img"));
 
 	return (
-		<Panel id={id} centered>
-			<PanelHeader left={<PanelHeaderBack onClick={back} />}>
+		<Panel id={props.id} centered>
+			<PanelHeader left={<PanelHeaderBack onClick={props.go} data-to="target"/>}>
 				Сниппет
 			</PanelHeader>
 			<Card>

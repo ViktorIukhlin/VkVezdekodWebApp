@@ -1,13 +1,14 @@
 {
-  "name": "vezdekod",
+  "name": "VkVezdekodWebApp",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://viktoriukhlin.github.io/VkVezdekodWebApp/",
   "main": "index.js",
   "scripts": {
     "start": "cross-env PORT=10888 HTTPS=true react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "vk-miniapps-deploy"
+    "deploy": "npx gh-pages -d build"
   },
   "keywords": [],
   "author": "",

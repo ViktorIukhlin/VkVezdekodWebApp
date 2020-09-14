@@ -52,8 +52,8 @@ const Regular = (props) => (
     </FormLayout>
     <FixedLayout vertical="bottom">
       <Div>
-        <Button size="xl" stretched onClick={props.go} data-to="extra">
-          Далее
+        <Button size="xl" stretched>
+          Создать сбор
         </Button>
       </Div>
     </FixedLayout>

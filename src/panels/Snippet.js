@@ -16,7 +16,7 @@ import {
 } from "@vkontakte/vkui/";
 
 const Snippet = (props) => {
-	const [img, setImg] = useState(localStorage.getItem("img"));
+	const [img] = useState(localStorage.getItem("img"));
 
 	return (
 		<Panel id={props.id} centered>
@@ -64,8 +64,7 @@ const Snippet = (props) => {
 
 Snippet.propTypes = {
 	id: PropTypes.string.isRequired,
-	go: PropTypes.func.isRequired,
-	back: PropTypes.func.isRequired,
+	go: PropTypes.func.isRequired
 };
 
 export default Snippet;

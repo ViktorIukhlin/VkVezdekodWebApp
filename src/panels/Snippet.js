@@ -16,7 +16,7 @@ import {
 } from "@vkontakte/vkui/";
 
 const Snippet = (props) => {
-	const [img] = useState(localStorage.getItem("img"));
+	const img = 'https://thumbs.gfycat.com/UnsungRipeBobolink-max-1mb.gif'
 
 	return (
 		<Panel id={props.id} centered>
@@ -30,7 +30,7 @@ const Snippet = (props) => {
 						height: 140,
 						borderBottomRightRadius: 0,
 						borderBottomLeftRadius: 0,
-						background: `url(${img})`,
+						background: ` no-repeat center/50% url(${img})`,
 					}}
 				/>
 				<Div>

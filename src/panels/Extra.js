@@ -52,7 +52,7 @@ const Extra = (props) => (
 
     <FixedLayout vertical="bottom">
       <Div>
-        <Button size="xl" stretched>
+        <Button size="xl" onClick={props.goForward} data-to="snippet" stretched>
           Создать сбор
         </Button>
       </Div>

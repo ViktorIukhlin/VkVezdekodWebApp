@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/VkVezdekodWebApp/static/js/main.fa460f3d.chunk.js",
-    "main.js.map": "/VkVezdekodWebApp/static/js/main.fa460f3d.chunk.js.map",
+    "main.js": "/VkVezdekodWebApp/static/js/main.f90cc8cb.chunk.js",
+    "main.js.map": "/VkVezdekodWebApp/static/js/main.f90cc8cb.chunk.js.map",
     "runtime-main.js": "/VkVezdekodWebApp/static/js/runtime-main.bead027c.js",
     "runtime-main.js.map": "/VkVezdekodWebApp/static/js/runtime-main.bead027c.js.map",
     "static/css/2.09e62520.chunk.css": "/VkVezdekodWebApp/static/css/2.09e62520.chunk.css",
-    "static/js/2.258dad73.chunk.js": "/VkVezdekodWebApp/static/js/2.258dad73.chunk.js",
-    "static/js/2.258dad73.chunk.js.map": "/VkVezdekodWebApp/static/js/2.258dad73.chunk.js.map",
+    "static/js/2.c360289f.chunk.js": "/VkVezdekodWebApp/static/js/2.c360289f.chunk.js",
+    "static/js/2.c360289f.chunk.js.map": "/VkVezdekodWebApp/static/js/2.c360289f.chunk.js.map",
     "index.html": "/VkVezdekodWebApp/index.html",
-    "precache-manifest.419d4f12edba6c96e368b0cb3e9bf8a6.js": "/VkVezdekodWebApp/precache-manifest.419d4f12edba6c96e368b0cb3e9bf8a6.js",
+    "precache-manifest.dbaec569ed4fb8f393a7f97e0548d9a2.js": "/VkVezdekodWebApp/precache-manifest.dbaec569ed4fb8f393a7f97e0548d9a2.js",
     "service-worker.js": "/VkVezdekodWebApp/service-worker.js",
     "static/css/2.09e62520.chunk.css.map": "/VkVezdekodWebApp/static/css/2.09e62520.chunk.css.map",
-    "static/js/2.258dad73.chunk.js.LICENSE.txt": "/VkVezdekodWebApp/static/js/2.258dad73.chunk.js.LICENSE.txt"
+    "static/js/2.c360289f.chunk.js.LICENSE.txt": "/VkVezdekodWebApp/static/js/2.c360289f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bead027c.js",
     "static/css/2.09e62520.chunk.css",
-    "static/js/2.258dad73.chunk.js",
-    "static/js/main.fa460f3d.chunk.js"
+    "static/js/2.c360289f.chunk.js",
+    "static/js/main.f90cc8cb.chunk.js"
   ]
 }

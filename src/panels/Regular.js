@@ -30,7 +30,7 @@ const Regular = (props) => (
         </PanelHeaderButton>
       }
     >
-      Регулярный сбор
+      Регулярный сбор 
     </PanelHeader>
     <FormLayout style={{ paddingBottom: 60 }}>
       <UploadPreview />
